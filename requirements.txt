@@ -1,0 +1,1 @@
+requests==2.32.3 dnspython==2.6.1 rich==13.9.2 beautifulsoup4==4.12.3 wappalyzer==0.5.0 python-socketio==5.11.4 pyyaml==6.0.2 pandas==2.2.3
