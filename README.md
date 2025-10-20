@@ -71,7 +71,7 @@ Python 3.8+ required.
 Command:
 ```
 
-python subdomain_hacker.py --domain <domain> [--output <file>] [--passive] [--active --brute-wordlist <path>] [--permutation --known-subs <path> [--perm-wordlist <path>]] [--threads <num>]
+python subgather.py --domain <domain> [--output <file>] [--passive] [--active --brute-wordlist <path>] [--permutation --known-subs <path> [--perm-wordlist <path>]] [--threads <num>]
 ```
 
 Options
@@ -120,31 +120,31 @@ Options
 
 *Passive scan:*
 ```
-python subdomain_hacker.py --domain example.com --passive
+python subgather.py --domain example.com --passive
 ```
 
 
 *Active brute-force:*
 ```
-python subdomain_hacker.py --domain example.com --active --brute-wordlist subdomains-top1million-5000.txt
+python subgather.py --domain example.com --active --brute-wordlist subdomains-top1million-5000.txt
 ```
 
 
 *Permutation scan:*
 ```
-python subdomain_hacker.py --domain example.com --permutation --known-subs known_subs.txt --perm-wordlist perm_list.txt
+python subgather.py --domain example.com --permutation --known-subs known_subs.txt --perm-wordlist perm_list.txt
 
 ```
 
 *Full power:*
 ```
-python subdomain_hacker.py --domain example.com --passive --active --brute-wordlist subdomains-top1million-5000.txt --permutation --known-subs known_subs.txt
+python subgather.py --domain example.com --passive --active --brute-wordlist subdomains-top1million-5000.txt --permutation --known-subs known_subs.txt
 ```
 
 
 *Help:*
 ```
-python subdomain_hacker.py --help
+python subgather.py --help
 ```
 📡 Output
 ```
