@@ -36,7 +36,7 @@ Modular Core: Easy to extend with new recon features.
 *Clone the repo:*
 
 ```
-git clone https://github.com/your-username/subgather.git
+git clone https://github.com/ Cyb3rGh05tX/subgather.git
 cd subgather
 ```
 
